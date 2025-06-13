@@ -36,8 +36,8 @@ export default function Navbar() {
     },[])
 
     return (
-        <div className="relative">
-            <nav className="container-width py-7 border-b border-[#e6e6e6]">
+        <div className="relative border-b border-[#e6e6e6]">
+            <nav className="container-width py-7 ">
                 <div className="flex items-center justify-between">
                     <h1 className="text-3xl text-[#ffe400] font-bold">MovieShow</h1>
 
