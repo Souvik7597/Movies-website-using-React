@@ -73,7 +73,7 @@ export default function Footer() {
                 <div className="flex flex-col gap-5 xl:mt-3">
                     <h3 className="text-xl text-[#ffe400] font-bold">Subscribe</h3>
                     <form className="flex items-center lg:w-9/12">
-                        <input className="bg-white w-full py-2 px-7 outline-0 border-2 border-[#efefef] text-black text-sm sm:text-[17px] rounded-s-full" placeholder="Your Email" type="text" />
+                        <input className="bg-white max-w-full py-2 px-7 outline-0 border-2 border-[#efefef] text-black text-sm sm:text-[17px] rounded-s-full" placeholder="Your Email" type="text" />
                         <button type="submit" className=" text-sm sm:text-[16px] py-2.5 px-3 bg-[#ffef97] text-black rounded-e-full outline-0 font-semibold border border-s-0">Subscribe</button>
                     </form>
                 </div>
