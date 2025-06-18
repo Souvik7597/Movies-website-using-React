@@ -5,11 +5,10 @@ const API_IMAGE_BASE_URL = import.meta.env.VITE_APP_MOVIE_IMAGEBASEURL
 
 export default function Banner({ movie }) {
     const bgStyle = {
-        backgroundImage: `url(${API_IMAGE_BASE_URL}${movie.poster_path})`,
         backgroundRepeat: "no-repeat",
         backgroundSize: "cover",
         backgroundPosition: "center",
-        backgroundcolor: "linear-gradient(rgba(55, 81, 126, 0.4) 40%, rgba(55, 81, 126, 0.7) 100%)"
+        backgroundImage: `linear-gradient(rgba(55, 81, 126, 0.4) 40%, rgba(55, 81, 126, 0.7) 100%),url(${API_IMAGE_BASE_URL}${movie.poster_path})`
     }
     return (
         <div style={bgStyle} className="h-140">
